@@ -1,0 +1,30 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-image: linear-gradient(135deg, #00B7D4, #505488, #2F3F80, #161569, #5A4894);
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .texto-container  {
+    justify-content: center;
+    text-align: center;
+  
+  }
+  
+  .texto-container  {
+    
+    text-align: center;
+    font-size: 1.5 vw;
+  }
+  
+    .ocultar{
+         /* Cambiar a 'table-row' para mostrar la fila como una fila de la tabla */
+        visibility: hidden; /* Opcionalmente, puedes utilizar 'visibility: hidden' en lugar de 'display: none' para ocultar la fila */
+    }
+}
